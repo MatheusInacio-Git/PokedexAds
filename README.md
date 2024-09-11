@@ -9,6 +9,7 @@ TypeScript
 HTML
 Como Executar
 Clone o repositório:
+
 git clone https://github.com/linkmatheusinacio/pokedex-ads.git
 
 Instale as dependências:
