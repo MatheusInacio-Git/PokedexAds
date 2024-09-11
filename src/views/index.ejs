@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+</head>
+<body>
+    <h1>PokeDex</h1>
+    <% pokemons.forEach(pokemon => { %>
+    <div>
+        <p>Nome: <a href="/pokemon/<%= pokemon.name %>"><%= pokemon.name %></a></p>
+        <p>URL: <%= pokemon.url %></p>
+    </div>
+    <% }) %>
+</body>
+</html>
